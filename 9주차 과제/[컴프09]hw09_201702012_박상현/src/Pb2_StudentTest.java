@@ -1,0 +1,36 @@
+
+public class Pb2_StudentTest {
+
+	public static void main(String[] args) {
+//Student Å¬·¡½º Å×½ºÆ®
+		Student s1 = new Student();
+		System.out.println(s1.toString());
+	
+		System.out.println();
+		
+		Student s2 = new Student("±è¹ÎÃ¶", 200902003, 6);
+		System.out.println(s2.toString());
+		
+		System.out.println();
+//Undergraduate Å¬·¡½º Å×½ºÆ®
+		Undergraduate u1 = new Undergraduate();
+		System.out.println(u1.toString());
+		
+		System.out.println();
+		
+		Undergraduate u2 = new Undergraduate("¹Î¼±±â", "ProBrain");
+		System.out.println(u2.toString());
+		
+		System.out.println();
+//GraduateStudent Å¬·¡½º Å×½ºÆ®
+		GraduateStudent g1 = new GraduateStudent();
+		System.out.println(g1.toString());
+	
+		System.out.println();
+		
+		GraduateStudent g2 = new GraduateStudent("±èÈ«±¸", "¿¬±¸Á¶±³");
+		System.out.println(g2.toString());
+		
+	}
+
+}
